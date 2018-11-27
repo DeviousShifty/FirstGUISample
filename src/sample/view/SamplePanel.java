@@ -2,7 +2,8 @@ package sample.view;
 
 //IMPORTS
 import GUI.Controller.GUIController;
-
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 import java.awt.Color;
 
 import javax.swing.*;
@@ -40,6 +41,12 @@ public class SamplePanel extends JPanel
 	
 	private void setupListeners()
 	{
-		
+		colorButton.addActionListener(new ActionListener() 
+		{
+			public void actionPerformed(ActionEvent mouseClick)
+			{
+				
+			}
+		});
 	}
 }
